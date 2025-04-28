@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Animation Submit Button</title>
+  </head>
+  <body>
+    <div class="submit-habit-container">
+      <button
+        class="btn btn-a submit-habit"
+        id="submit-habit"
+        onclick="animateButton()"
+      >
+        <span class="submit-habit-label">Finish</span>
+        <span class="checkmark" id="submit-habit-checkmark"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 24 24"
+          >
+            <polyline
+              class="path"
+              fill="none"
+              points="4,12 9,17 20,6"
+              stroke="#fff"
+              stroke-width="3"
+            /></svg
+        ></span>
+      </button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
